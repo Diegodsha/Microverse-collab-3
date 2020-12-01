@@ -1,9 +1,19 @@
 @media screen and (max-width: 320px) {
-    body {
-      background-color: lightgreen;
-    }
+  body {
+    background-color: lightgreen;
+    text-align: center;
   }
+}
 
-#welcome-section{
-    height: 100vh;
+#welcome-section {
+  height: 100vh;
+  position: fixed;
+}
+#navbar {
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
 }
