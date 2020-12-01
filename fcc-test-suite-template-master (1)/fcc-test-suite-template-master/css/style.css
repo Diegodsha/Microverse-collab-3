@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+#welcome-section{
+    height: 100vh;
+}
