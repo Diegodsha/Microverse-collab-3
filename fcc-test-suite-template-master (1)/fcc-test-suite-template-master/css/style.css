@@ -1,4 +1,3 @@
-
 #welcome-section {
   height: 100vh;
   margin: 50px;
@@ -14,8 +13,21 @@
 }
 
 .main {
-    padding: 16px;
-    text-align: center;
-    height: 1500px; /* Used in this example to enable scrolling */
-    background-color: lightgray;
+  padding: 16px;
+  text-align: center;
+  height: 1500px;
+  background-color: lightgray;
+}
+#project-img2,
+#project-img1 {
+  margin: 15pt;
+  border-radius: 10pt;
+}
+
+.project-title {
+  text-decoration: underline;
+}
+h1 {
+  font-style: italic;
+  font-weight: bolder;
 }
